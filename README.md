@@ -7,7 +7,7 @@ Course labs, assignments and mini-projects from my Electronics and Communication
 Larger course projects have their own repos:
 [power-supply-and-audio-amplifier](https://github.com/abdelrahmansherifmedhat1134/power-supply-and-audio-amplifier) (ECE211s),
 [solar-tracker-simscape](https://github.com/abdelrahmansherifmedhat1134/solar-tracker-simscape) (CSE271s),
-[asemn-drone-lidar-monitoring](https://github.com/abdelrahmansherifmedhat1134/asemn-drone-lidar-monitoring) (ECE391s).
+[asemn-environmental-monitoring-node](https://github.com/abdelrahmansherifmedhat1134/asemn-environmental-monitoring-node) (ECE391s).
 
 ## Index
 
@@ -40,7 +40,7 @@ Larger course projects have their own repos:
 
 - **MATLAB / Octave:** open the folder and run the `.m` script. `octave-sheets` use Octave's `signal` package (`pkg load signal`). The signals project reads an audio file that is not included (recordings of classmates' voices); save any recording as `input.wav` next to the script.
 - **Simulink:** `.slx` models open in MATLAB/Simulink R2024a or newer. Simulink caches (`slprj/`, `*.slxc`) are not included and are rebuilt on first run.
-- **LTspice:** open the `.asc` file and run. The ECE311s CMOS schematics need the 90 nm / 65 nm PTM and CMOSedu model files used in the course, which are not included; put them next to the schematic.
+- **LTspice:** open the `.asc` file and run. The ECE311s schematics `.include` the model files kept next to them: PTM 90 nm / 65 nm bulk models (Predictive Technology Model, ASU) and the CMOSedu long-channel models (Baker, *CMOS Circuit Design, Layout, and Simulation*).
 - **Verilog:** compile the module with its `_tb.v` in ModelSim/QuestaSim.
 - **C/C++:** `g++ file.cpp -o file` or `gcc file.c -o file`.
 
@@ -50,4 +50,4 @@ Course briefs and lab handouts, instructor lab material, textbooks and lecture n
 
 ## License
 
-Code (`.m`, `.slx`, `.asc`, `.v`, `.c`, `.cpp`, `.h`, `.asm`) is under the [MIT License](LICENSE). Reports and slides are © their authors and are shared for reference only.
+Code (`.m`, `.slx`, `.asc`, `.v`, `.c`, `.cpp`, `.h`, `.asm`) is under the [MIT License](LICENSE). The PTM and CMOSedu model files in `ece311s-digital-circuits/ltspice/` keep their original terms. Reports and slides are © their authors and are shared for reference only.
