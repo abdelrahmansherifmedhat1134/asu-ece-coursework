@@ -1,0 +1,37 @@
+# MATLAB / Simulink
+*.asv
+*.m~
+*.mex*
+slprj/
+*.slxc
+*.autosave
+*.mat.bak
+# LTspice
+*.raw
+*.log
+*.net
+*.fft
+*.op.raw
+# ModelSim / QuestaSim
+work/
+transcript
+*.wlf
+*.vcd
+*.mti
+*.mpf
+# C / C++
+*.exe
+*.o
+*.out
+bin/
+obj/
+*.depend
+*.layout
+# Media and local inputs
+*.wav
+*.opus
+*.mp4
+input.wav
+# OS
+Thumbs.db
+desktop.ini
