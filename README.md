@@ -7,13 +7,14 @@ Course labs, assignments and mini-projects from my Electronics and Communication
 Larger course projects have their own repos:
 [power-supply-and-audio-amplifier](https://github.com/abdelrahmansherifmedhat1134/power-supply-and-audio-amplifier) (ECE211s),
 [solar-tracker-simscape](https://github.com/abdelrahmansherifmedhat1134/solar-tracker-simscape) (CSE271s),
-[asemn-environmental-monitoring-node](https://github.com/abdelrahmansherifmedhat1134/asemn-environmental-monitoring-node) (ECE391s).
+[asemn-environmental-monitoring-node](https://github.com/abdelrahmansherifmedhat1134/asemn-environmental-monitoring-node) (ECE391s),
+[digital-comm-gram-schmidt-ber](https://github.com/abdelrahmansherifmedhat1134/digital-comm-gram-schmidt-ber) (ECE352s).
 
 ## Index
 
 | Course | Task | Files | Key result |
 |---|---|---|---|
-| ECE352s Analog & Digital Communication Systems (Spr 2026) | Course project: Gram-Schmidt basis functions for M arbitrary signals, constellation diagrams | [`ece352s-communication-systems/course-project/`](ece352s-communication-systems/course-project) (7 MATLAB scripts; `_ver*` / `_Final` are successive versions) | — |
+| ECE352s Analog & Digital Communication Systems (Spr 2026) | Course project: Gram-Schmidt, constellations and BER (own repo) | [digital-comm-gram-schmidt-ber](https://github.com/abdelrahmansherifmedhat1134/digital-comm-gram-schmidt-ber) | — |
 | | Lab experiments 1–4 (group) | [`lab-reports/`](ece352s-communication-systems/lab-reports) | — |
 | ECE312s Analog circuits (Spr 2026) | Experiments E1–E5 (group): op-amp circuits | [`ece312s-analog-circuits/`](ece312s-analog-circuits) (5 reports, 5 LTspice schematics) | — |
 | DSP (Spr 2026) | Assignments 1–2, lab E4 (group) | [`dsp/`](dsp) | — |
